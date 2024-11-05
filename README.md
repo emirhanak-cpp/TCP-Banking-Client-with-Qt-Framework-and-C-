@@ -3,6 +3,6 @@ In this project, my aim was to create a banking interface that should use TCP to
 
 
 ## How to use:
-- In order for the communication with the server side to be established, TCP Banking Server should be running on another computer on the same network.
+- In order for the communication with the server side to be established, TCP Banking Server (which I also provided as another repository) should be running on another computer on the same network.
 - I've provided the entire project from Visual Studio in this repository. So, running the .sln file should be enough to run the program.
 - The only thing you should watch out for is to change the IPv4 address that the client tries to connect to. You can do this by opening the .sln file in Visual Studio and navigating to the 59th line of the TCPBankingClass.cpp file.
