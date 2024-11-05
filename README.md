@@ -1,5 +1,5 @@
 # TCP_Banking_Client_QtApp
-In this project, my aim was to create a banking interface that should use TCP to establihsh communication with the server side. This client side should be user-friendly and understandle. That's why I used Qt framework to create the user-interface. The banking operations requested by the user are all sent to the server side to get checked and then confirmed. As of right now however, only signing in to the bank account is implemented. I'm looking forward to improving it in the future.
+In this project, my aim was to create a banking interface that should use TCP to establish communication with the server side. This client side should be user-friendly and understandle. That's why I used Qt framework to create the user-interface. The banking operations requested by the user are all sent to the server side to get checked and then confirmed. As of right now however, only signing in to the bank account is implemented. I'm looking forward to improving it in the future.
 
 
 ## How to use:
