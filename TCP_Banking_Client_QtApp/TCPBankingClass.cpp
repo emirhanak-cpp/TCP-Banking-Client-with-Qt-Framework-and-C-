@@ -56,7 +56,7 @@ int TCPBankingClass::initializeConnection()
 	// Connect to the server
 	sockaddr_in clientService;
 	clientService.sin_family = AF_INET;
-	InetPton(AF_INET, __TEXT("10.150.12.191"), &clientService.sin_addr.s_addr);
+	InetPton(AF_INET, __TEXT("10.150.12.191"), &clientService.sin_addr.s_addr); // Change this to the server computer's IPv4 address running on the same network.
 	clientService.sin_port = htons(54000);
 
 	if (connect(getSocket(), reinterpret_cast<SOCKADDR*>(&clientService), sizeof(clientService)) == SOCKET_ERROR)
